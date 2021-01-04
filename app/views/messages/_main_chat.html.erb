@@ -13,11 +13,32 @@
 
 <div class="messages">
   <div class="message">
-    <div class="username">Tom</div>
-    <div class="date">2020/3/31(Wed) 12:43:30</div>
-    <div class="mes">おはよう</div>
+    <div class="upper-message">
+      <div class="message-user">Tom</div>
+      <div class="message-date">2020/3/31(Wed) 12:43:30</div>
+    </div>
+    <div class="lower-message">
+      <div class="message-content">おはよう</div>
+    </div>
+  </div>
+  <div class="message">
+    <div class="upper-message">
+      <div class="message-user">Tom</div>
+      <div class="message-date">2020/3/31(Wed) 12:45:30</div>
+    </div>
+    <div class="lower-message">
+      <div class="message-content">こんばんわ</div>
+    </div>
   </div>
 </div>
 
 <div class="form">
+  <div class="form-input">
+    <input placeholder="type a message" class="form-message">
+    <label class="form-image">
+      <span class="image-file">画像</span>
+      <input type="file" class="hidden">
+    </label>
+  </div>
+    <input type="submit" value="送信" class="form-submit">
 </div>
